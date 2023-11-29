@@ -1,0 +1,37 @@
+CREATE DATABASE SchoolEventsDB;
+
+DROP TABLE Events;
+DROP TABLE Roles;
+DROP TABLE Users;
+
+USE SchoolEventsDB;
+
+-- Tworzenie tabeli 'Events'
+CREATE TABLE Events (
+    EventID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla EventID
+    Title NVARCHAR(255),
+    Descrip NVARCHAR(255),
+    StartDateTime DATETIME,
+    EndDateTime DATETIME,
+    Location NVARCHAR(255), -- Może zawierać budynek i salę
+    Description NVARCHAR(MAX) -- Dodatkowe informacje o wydarzeniu
+);
+
+-- Tworzenie tabeli 'Roles'
+CREATE TABLE Roles (
+    RoleID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla RoleID
+    RoleName NVARCHAR(255)
+);
+
+-- Tworzenie tabeli 'Users'
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla UserID
+    Username NVARCHAR(255),
+    PasswordHash NVARCHAR(255), -- Hash hasła użytkownika
+    Email NVARCHAR(255),
+    PhoneNumber NVARCHAR(255),
+    FirstName NVARCHAR(255),
+    LastName NVARCHAR(255),
+    RoleID INT, -- Klucz obcy odnoszący się do tabeli 'Roles'
+    FOREIGN KEY (RoleID) REFERENCES Roles(RoleID) -- Definicja klucza obcego
+);
