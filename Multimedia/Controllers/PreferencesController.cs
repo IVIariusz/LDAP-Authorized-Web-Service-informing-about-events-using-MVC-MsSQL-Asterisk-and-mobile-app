@@ -1,73 +1,92 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Multimedia.Models;
+using Newtonsoft.Json;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
-using System.Threading.Tasks;  // Dodaj using System.Threading.Tasks;
+using System.Threading.Tasks;
+using System.Security.Claims;
 
-namespace Multimedia.Controllers
+public class PreferencesController : Controller
 {
-    [Authorize]
-    public class PreferencesController : Controller
+    private readonly SchoolEventsContext _context;
+    private readonly ILogger<PreferencesController> _logger;
+
+    public PreferencesController(SchoolEventsContext context, ILogger<PreferencesController> logger)
     {
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SchoolEventsContext _context;
+        _context = context;
+        _logger = logger;
+    }
 
-        public PreferencesController(UserManager<ApplicationUser> userManager, SchoolEventsContext context)
+    // GET: Preferences
+    public IActionResult Index()
+    {
+        int userId = GetLoggedInUserId();
+        if (userId == 0)
         {
-            _userManager = userManager;
-            _context = context;
+            _logger.LogWarning("No logged in user found for preferences.");
+            return Unauthorized();
         }
 
-        [HttpGet]
-        public async Task<IActionResult> ManagePreferences(string userId)
+        var userPreferences = GetUserPreferences(userId);
+        return View(userPreferences);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> SavePreferences(UserPreferences model)
+    {
+        int userId = GetLoggedInUserId();
+        if (userId == 0)
         {
-            // Pobierz użytkownika na podstawie UserId z bazy danych
-            var user = await _userManager.FindByIdAsync(userId);
-
-            var existingPreferences = _context.UserPreferences.FirstOrDefault(up => up.UserID == userId);
-
-            if (existingPreferences != null)
-            {
-                return View(existingPreferences);
-            }
-            else
-            {
-                var newPreferences = new UserPreferences
-                {
-                    UserID = userId
-                };
-
-                return View(newPreferences);
-            }
+            _logger.LogWarning("Attempted to save preferences for an invalid user.");
+            return Unauthorized();
         }
-        [HttpPost]
-        public IActionResult ManagePreferences(UserPreferences preferences)
+
+        if (!ModelState.IsValid)
         {
-            if (ModelState.IsValid)
-            {
-                preferences.UserID = _userManager.GetUserId(User);
-
-                var existingPreferences = _context.UserPreferences.FirstOrDefault(up => up.UserID == preferences.UserID);
-
-                if (existingPreferences != null)
-                {
-                    // ... reszta kodu ...
-
-                    existingPreferences.UserID = preferences.UserID; // Dodaj tę linijkę
-                }
-                else
-                {
-                    _context.UserPreferences.Add(preferences);
-                }
-
-                _context.SaveChanges();
-
-                return RedirectToAction("Index", "Home");
-            }
-
-            return View(preferences);
+            _logger.LogWarning("Invalid model state for saving preferences.");
+            return View("Index", model);
         }
+
+        var userPreferences = GetUserPreferences(userId);
+        UpdateUserPreferences(userPreferences, model);
+
+        try
+        {
+            _context.Update(userPreferences);
+            await _context.SaveChangesAsync();
+            _logger.LogInformation($"Preferences for user {userId} were successfully saved.");
+            TempData["Saved"] = true;
+            return RedirectToAction(nameof(Index));
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError($"Error saving preferences for user {userId}: {ex.Message}");
+            ModelState.AddModelError(string.Empty, "An error occurred saving preferences.");
+            return View("Index", model);
+        }
+    }
+
+    private int GetLoggedInUserId()
+    {
+        var userIdClaim = User.FindFirst("UserID");
+        return userIdClaim != null && int.TryParse(userIdClaim.Value, out int userId) ? userId : 0;
+    }
+
+    private UserPreferences GetUserPreferences(int userId)
+    {
+        return _context.UserPreferences
+                       .FirstOrDefault(u => u.UserID == userId)
+                       ?? new UserPreferences { UserID = userId };
+    }
+
+    private void UpdateUserPreferences(UserPreferences existing, UserPreferences updated)
+    {
+        existing.ReceiveMessages = updated.ReceiveMessages;
+        existing.PreferredDeliveryTime = updated.PreferredDeliveryTime;
+        existing.DeliveryMethod = updated.DeliveryMethod;
+        existing.BlockedHoursStart = updated.BlockedHoursStart;
+        existing.BlockedHoursEnd = updated.BlockedHoursEnd;
     }
 }

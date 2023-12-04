@@ -52,8 +52,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mwozn/OneDrive/Pulpit/Multimedia_Projekt/Multimedia/Views/Preference/ManagePreferences.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZmVyZW5jZVxNYW5hZ2VQcmVmZXJlbmNlcy5jc2h0bWw=
+[C:/Users/mwozn/OneDrive/Pulpit/Multimedia_Projekt/Multimedia/Views/Preferences/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZmVyZW5jZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mwozn/OneDrive/Pulpit/Multimedia_Projekt/Multimedia/Views/Preferences/SavePreferences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZmVyZW5jZXNcU2F2ZVByZWZlcmVuY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mwozn/OneDrive/Pulpit/Multimedia_Projekt/Multimedia/Views/Shared/Error.cshtml]

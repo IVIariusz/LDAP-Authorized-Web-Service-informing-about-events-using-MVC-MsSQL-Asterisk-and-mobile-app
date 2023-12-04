@@ -1,24 +1,32 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
+using System;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Multimedia.Models
 {
-    public class ApplicationUser : IdentityUser
-    {
-        
-    }
-
     public class UserPreferences
     {
         [Key]
-        public string UserID { get; set; }
+        public int UserID { get; set; }
+
+        [Display(Name = "Receive Messages")]
         public bool ReceiveMessages { get; set; }
-        public TimeSpan PreferredDeliveryTime { get; set; }
+
+        [Display(Name = "Preferred Delivery Time")]
+        public TimeSpan? PreferredDeliveryTime { get; set; }
+
+        [Display(Name = "Delivery Method")]
+        [StringLength(50)]
         public string DeliveryMethod { get; set; }
-        public TimeSpan BlockedHoursStart { get; set; }
-        public TimeSpan BlockedHoursEnd { get; set; }
-        public User User { get; set; }
+
+        [Display(Name = "Blocked Hours Start")]
+        public TimeSpan? BlockedHoursStart { get; set; }
+
+        [Display(Name = "Blocked Hours End")]
+        public TimeSpan? BlockedHoursEnd { get; set; }
     }
+
 
 }
