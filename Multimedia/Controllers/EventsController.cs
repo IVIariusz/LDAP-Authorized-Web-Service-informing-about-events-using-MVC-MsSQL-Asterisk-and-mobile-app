@@ -17,13 +17,12 @@ public class EventsController : Controller
     }
 
 
-    // GET: Events
+
     public async Task<IActionResult> Index()
     {
         return View(await _context.Events.ToListAsync());
     }
 
-    // GET: Events/Details/5
     public async Task<IActionResult> Details(int? id)
     {
         if (id == null)
@@ -41,13 +40,11 @@ public class EventsController : Controller
         return View(@event);
     }
 
-    // GET: Events/Create
+
     public IActionResult Create()
     {
         return View();
     }
-
-    // POST: Events/Create
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("Title,Description,StartDateTime,EndDateTime,Location")] Event @event)
@@ -66,8 +63,6 @@ public class EventsController : Controller
     }
 
 
-
-    // GET: Events/Edit/5
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -83,7 +78,7 @@ public class EventsController : Controller
         return View(@event);
     }
 
-    // POST: Events/Edit/5
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Edit(int id, [Bind("EventID,Title,Description,StartDateTime,EndDateTime,Location")] Event @event)
@@ -116,7 +111,6 @@ public class EventsController : Controller
         return View(@event);
     }
 
-    // GET: Events/Delete/5
     public async Task<IActionResult> Delete(int? id)
     {
         if (id == null)
@@ -134,19 +128,56 @@ public class EventsController : Controller
         return View(@event);
     }
 
-    // POST: Events/Delete/5
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> DeleteConfirmed(int id)
     {
-        var @event = await _context.Events.FindAsync(id);
-        if (@event != null)
+        using (var transaction = _context.Database.BeginTransaction())
         {
-            _context.Events.Remove(@event);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var @event = await _context.Events.FindAsync(id);
+                if (@event == null)
+                {
+                    _logger.LogInformation("Event not found");
+                    return RedirectToAction(nameof(Index));
+                }
+
+                _context.Entry(@event).OriginalValues.SetValues(await _context.Events.AsNoTracking().FirstOrDefaultAsync(e => e.EventID == id));
+
+                var relatedMessages = _context.SentMessagesHistory.Where(m => m.EventID == id);
+
+                _context.SentMessagesHistory.RemoveRange(relatedMessages);
+
+                // Oznacz zdarzenie jako usunięte
+                @event.IsDeleted = true;
+
+                _logger.LogInformation("Marking event as deleted");
+
+
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Event marked as deleted successfully");
+
+                transaction.Commit();
+
+                return RedirectToAction(nameof(Index));
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                transaction.Rollback();
+                _logger.LogError(ex, "Concurrency error during delete operation");
+                return RedirectToAction("ConcurrencyError");
+            }
+            catch (Exception ex)
+            {
+                transaction.Rollback();
+                _logger.LogError(ex, "Error during delete operation");
+                throw;
+            }
         }
-        return RedirectToAction(nameof(Index));
     }
+
 
     private bool EventExists(int id)
     {

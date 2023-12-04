@@ -17,4 +17,21 @@ public class SchoolEventsContext : DbContext
     public DbSet<Event> Events { get; set; }
 
     public DbSet<UserPreferences> UserPreferences { get; set; }
+    public DbSet<SentMessagesHistory> SentMessagesHistory { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<SentMessagesHistory>(entity =>
+        {
+            entity.HasKey(e => e.MessageID);
+
+            entity.HasOne(e => e.User)
+                .WithMany(u => u.SentMessagesHistory)
+                .HasForeignKey(e => e.UserID)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+
+        base.OnModelCreating(modelBuilder);
+    }
 }

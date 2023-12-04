@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\Multimedia.csproj": {}
+    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\Multimedia.csproj": {
+    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\Multimedia.csproj",
+        "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
         "projectName": "Multimedia",
-        "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\Multimedia.csproj",
+        "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
         "packagesPath": "C:\\Users\\mwozn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\obj\\",
+        "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mwozn\\AppData\\Roaming\\NuGet\\NuGet.Config",

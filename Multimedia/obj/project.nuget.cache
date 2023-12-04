@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TYhIVcxWIEpQ9QF1myely9BrDEN9qTcnjQC6wvyVl9GliystjWoFq0GZa+ho3eSSqPXRusf+kLmXdB6kE4iw2A==",
+  "dgSpecHash": "bweb1CCkQQm5SKisLGeRgQtZUij2iLVM3hGkzp7mQNkjufOOulInHyJXk+jgh7Y7oEwQHJiMIVoF7sQvrDOMaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Multimedia_Projekt\\Multimedia\\Multimedia.csproj",
+  "projectFilePath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mwozn\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mwozn\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

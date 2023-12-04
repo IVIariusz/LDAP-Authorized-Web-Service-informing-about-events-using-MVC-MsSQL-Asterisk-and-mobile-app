@@ -15,5 +15,6 @@ namespace Multimedia.Models
         public DateTime EndDateTime { get; set; }
         [MaxLength(100)]
         public string Location { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }

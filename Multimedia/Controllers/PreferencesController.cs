@@ -18,7 +18,6 @@ public class PreferencesController : Controller
         _logger = logger;
     }
 
-    // GET: Preferences
     public IActionResult Index()
     {
         int userId = GetLoggedInUserId();

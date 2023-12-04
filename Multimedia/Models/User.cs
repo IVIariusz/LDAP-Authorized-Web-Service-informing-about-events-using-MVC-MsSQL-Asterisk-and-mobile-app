@@ -19,11 +19,11 @@ namespace Multimedia.Models
         [MaxLength(50)]
         public string LastName { get; set; }
 
-        // Foreign Key
         public int RoleID { get; set; }
 
-        // Navigation properties
+
         public virtual Role Role { get; set; }
+        public ICollection<SentMessagesHistory> SentMessagesHistory { get; set; }
 
     }
 }
