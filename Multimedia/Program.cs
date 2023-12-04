@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Multimedia.Models;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SchoolEventsContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolEventsDB")));
 builder.Services.Configure<LdapConfig>(builder.Configuration.GetSection("Ldap"));
-
-
 
 // Dodanie kontrolerów i widoków
 builder.Services.AddControllersWithViews();
@@ -38,6 +39,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseRouting();
 

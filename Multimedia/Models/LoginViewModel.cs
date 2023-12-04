@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace Multimedia.Models
 {
@@ -11,6 +12,9 @@ namespace Multimedia.Models
         [Required(ErrorMessage = "Pole 'Hasło' jest wymagane.")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        [HiddenInput]
+        public string? UserId { get; set; }
     }
 
 }

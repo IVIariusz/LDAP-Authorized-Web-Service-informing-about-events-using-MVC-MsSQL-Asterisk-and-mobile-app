@@ -90,7 +90,18 @@ namespace Multimedia.Controllers
             {
                 _logger.LogInformation("Attempting to register a new user.");
 
+                       var existingUserLocal = _eventsContext.Users.FirstOrDefault(u => u.Email == model.Email);
+
+            if (existingUserLocal != null)
+            {
+                _logger.LogWarning($"Registration attempt failed: User {model.Email} already exists in local database.");
+                ModelState.AddModelError(string.Empty, "Użytkownik o podanym adresie email już istnieje.");
+                return View(model);
+            }
+
+
                 var existingUser = _eventsContext.Users.FirstOrDefault(u => u.Email == model.Email);
+
 
                 if (existingUser == null)
                 {

@@ -158,3 +158,4 @@ C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\re
 C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.pdb
 C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.genruntimeconfig.cache
 C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\ref\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
