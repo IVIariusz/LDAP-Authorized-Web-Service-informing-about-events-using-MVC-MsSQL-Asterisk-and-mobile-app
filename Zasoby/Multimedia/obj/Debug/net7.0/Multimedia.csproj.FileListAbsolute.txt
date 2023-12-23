@@ -1,0 +1,244 @@
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\appsettings.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.staticwebassets.runtime.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.exe
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.deps.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.runtimeconfig.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Humanizer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.csproj.AssemblyReference.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfoInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CoreCompileInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.Multimedia.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.build.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\scopedcss\bundle\Multimedia.styles.css
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\scopedcss\projectbundle\Multimedia.bundle.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CopyComplete
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\refint\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\Multimedia.genruntimeconfig.cache
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\obj\Debug\net7.0\ref\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\Novell.Directory.Ldap.NETStandard.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\linux\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\osx\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Baza\Multimedia\Multimedia\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\appsettings.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.staticwebassets.runtime.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.exe
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.deps.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.runtimeconfig.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Humanizer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Novell.Directory.Ldap.NETStandard.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\linux\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\osx\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.AssemblyReference.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfoInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CoreCompileInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.Multimedia.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.build.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\scopedcss\bundle\Multimedia.styles.css
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\scopedcss\projectbundle\Multimedia.bundle.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CopyComplete
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\refint\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\Multimedia.genruntimeconfig.cache
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\obj\Debug\net7.0\ref\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mwozn\OneDrive\Pulpit\Multimedia_Projekt\Multimedia\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\appsettings.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.staticwebassets.runtime.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.exe
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.deps.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.runtimeconfig.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Humanizer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\Novell.Directory.Ldap.NETStandard.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\linux\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\osx\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.AssemblyReference.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfoInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.AssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CoreCompileInputs.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.RazorAssemblyInfo.cs
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.Multimedia.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.build.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Multimedia.props
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\scopedcss\bundle\Multimedia.styles.css
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\scopedcss\projectbundle\Multimedia.bundle.scp.css
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.csproj.CopyComplete
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\refint\Multimedia.dll
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.pdb
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\Multimedia.genruntimeconfig.cache
+C:\Users\mwozn\OneDrive\Pulpit\Kredek\Domowe 4\Cały projekt\Multimedia\obj\Debug\net7.0\ref\Multimedia.dll
