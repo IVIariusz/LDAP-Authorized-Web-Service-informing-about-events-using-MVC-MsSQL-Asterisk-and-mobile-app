@@ -1,0 +1,85 @@
+CREATE DATABASE SchoolEventsDB;
+
+DROP TABLE Events;
+DROP TABLE Roles;
+DROP TABLE Users;
+
+USE SchoolEventsDB;
+
+-- Tworzenie tabeli 'Events'
+CREATE TABLE Events (
+    EventID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla EventID
+    Title NVARCHAR(255),
+    Descrip NVARCHAR(255),
+    StartDateTime DATETIME,
+    EndDateTime DATETIME,
+    Location NVARCHAR(255), -- Może zawierać budynek i salę
+    Description NVARCHAR(MAX) -- Dodatkowe informacje o wydarzeniu
+);
+
+-- Tworzenie tabeli 'Roles'
+CREATE TABLE Roles (
+    RoleID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla RoleID
+    RoleName NVARCHAR(255)
+);
+
+-- Tworzenie tabeli 'Users'
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1), -- Auto-increment dla UserID
+    Username NVARCHAR(255),
+    PasswordHash NVARCHAR(255), -- Hash hasła użytkownika
+    Email NVARCHAR(255),
+    PhoneNumber NVARCHAR(255),
+    FirstName NVARCHAR(255),
+    LastName NVARCHAR(255),
+    RoleID INT, -- Klucz obcy odnoszący się do tabeli 'Roles'
+    FOREIGN KEY (RoleID) REFERENCES Roles(RoleID) -- Definicja klucza obcego
+);
+
+CREATE TABLE UserPreferences (
+    UserID INT PRIMARY KEY,
+    ReceiveMessages BIT, -- 1 or 0 to indicate whether the user wants to receive messages
+    PreferredDeliveryTime TIME, -- Preferred time for message delivery
+    DeliveryMethod VARCHAR(50), -- Method of delivery (e.g., email, SMS, app notification)
+    BlockedHoursStart TIME, -- Start time of the blocked hours
+    BlockedHoursEnd TIME -- End time of the blocked hours
+);
+
+
+CREATE TABLE SentMessagesHistory (
+    MessageID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT,
+    EventID INT,
+    PhoneNumber NVARCHAR(20),
+    MessageText NVARCHAR(MAX),
+    SentDateTime DATETIME,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    FOREIGN KEY (EventID) REFERENCES Events(EventID)
+);
+
+-- Tabela zajęć
+CREATE TABLE Zajecia (
+    EventID INT PRIMARY KEY IDENTITY(1,1),
+    Data DATE NOT NULL,
+    GodzinaRozpoczecia TIME NOT NULL,
+    GodzinaZakonczenia TIME NOT NULL,
+    Budynek VARCHAR(50) NOT NULL,
+    Sala VARCHAR(20) NOT NULL,
+    Opis VARCHAR(255),
+    Prowadzacy VARCHAR(100) NOT NULL
+);
+
+-- Tabela przypisań grupowych
+CREATE TABLE GroupAssignments (
+    UserID INT,
+    EventID INT,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    FOREIGN KEY (EventID) REFERENCES Zajecia(EventID)
+);
+
+ALTER TABLE SentMessagesHistory
+DROP CONSTRAINT FK__SentMessa__Event__55BFB948;
+
+ALTER TABLE SentMessagesHistory
+ADD CONSTRAINT FK_SentMessagesHistory_Events
+FOREIGN KEY (EventID) REFERENCES Events(EventID) ON DELETE CASCADE;
