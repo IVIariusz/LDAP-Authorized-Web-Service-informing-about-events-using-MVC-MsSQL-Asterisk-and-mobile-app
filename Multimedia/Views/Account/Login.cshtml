@@ -1,20 +1,69 @@
-﻿@using System.Security.Claims
+﻿<link rel="stylesheet" href="~/css/login.css">
+
+@using System.Security.Claims
 @model LoginViewModel
 
-
-<h2>Logowanie</h2>
-<form asp-controller="Account" asp-action="Login" method="post">
+<form asp-controller="Account" asp-action="Login" method="post" class="accountclass">
+    <h2>Logowanie</h2>
     <div asp-validation-summary="All" class="text-danger"></div>
     <div class="form-group">
         <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" />
+        <input id="emailInput" asp-for="Email" class="form-control" placeholder="Email" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" class="form-control" />
+        <input id="passwordInput" asp-for="Password" type="password" class="form-control" placeholder="Password" />
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
     <input type="hidden" asp-for="UserId" value="@(User?.FindFirst(ClaimTypes.NameIdentifier)?.Value)" />
     <button type="submit" class="btn btn-primary">Zaloguj się</button>
 </form>
+
+<style>
+    label {
+        transition: opacity 0.4s ease-in-out;
+        opacity: 0;
+        font-weight: normal;
+    }
+
+        label.show {
+            opacity: 1;
+            font-weight: bold;
+        }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var emailInputLabel = document.querySelector('label[for="Email"]');
+        var passwordInputLabel = document.querySelector('label[for="Password"]');
+
+        var emailInput = document.getElementById('emailInput');
+        var passwordInput = document.getElementById('passwordInput');
+
+        emailInput.addEventListener('focus', function () {
+            // Dodaje klasę 'show' przy focus
+            emailInputLabel.classList.add('show');
+        });
+
+        passwordInput.addEventListener('focus', function () {
+            // Dodaje klasę 'show' przy focus
+            passwordInputLabel.classList.add('show');
+        });
+
+        emailInput.addEventListener('blur', function () {
+            // Usuwa klasę 'show' po opuszczeniu pola
+            if (!this.value) {
+                emailInputLabel.classList.remove('show');
+            }
+        });
+
+        passwordInput.addEventListener('blur', function () {
+            // Usuwa klasę 'show' po opuszczeniu pola
+            if (!this.value) {
+                passwordInputLabel.classList.remove('show');
+            }
+        });
+    });
+</script>
+

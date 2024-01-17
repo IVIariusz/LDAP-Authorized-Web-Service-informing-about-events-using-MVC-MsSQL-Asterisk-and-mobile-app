@@ -59,6 +59,16 @@
           }
         }
       },
+      "jQuery/3.2.1": {
+        "type": "package"
+      },
+      "jQuery.Fullcalendar/3.9.0": {
+        "type": "package",
+        "dependencies": {
+          "Moment.js": "2.18.2",
+          "jQuery": "3.2.1"
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.0": {
         "type": "package",
         "compile": {
@@ -188,11 +198,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.0": {
+      "Microsoft.EntityFrameworkCore/7.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.2",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.2",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -211,7 +221,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -224,7 +234,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -255,10 +265,10 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/7.0.0": {
+      "Microsoft.EntityFrameworkCore.Relational/7.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
         },
         "compile": {
@@ -733,6 +743,9 @@
           }
         }
       },
+      "Moment.js/2.18.2": {
+        "type": "package"
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -743,6 +756,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
+        }
+      },
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.3": {
@@ -770,6 +796,23 @@
         },
         "runtime": {
           "lib/net5.0/Novell.Directory.Ldap.NETStandard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.2",
+          "MySqlConnector": "2.2.5"
+        },
+        "compile": {
+          "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll": {
             "related": ".xml"
           }
         }
@@ -1333,6 +1376,137 @@
         "logo.png"
       ]
     },
+    "jQuery/3.2.1": {
+      "sha512": "Sc4jRcsItNXUoNmnPtD9DEnHCy5d4u0GOdDSKYL+b7PKtwajKO1YBJA55241G2M9KRCwSbtxV4ti3gb4n/pIew==",
+      "type": "package",
+      "path": "jquery/3.2.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.2.1-vsdoc.js",
+        "Content/Scripts/jquery-3.2.1.js",
+        "Content/Scripts/jquery-3.2.1.min.js",
+        "Content/Scripts/jquery-3.2.1.min.map",
+        "Content/Scripts/jquery-3.2.1.slim.js",
+        "Content/Scripts/jquery-3.2.1.slim.min.js",
+        "Content/Scripts/jquery-3.2.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.2.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.2.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jQuery.Fullcalendar/3.9.0": {
+      "sha512": "soyfwNQ4ZCyJRi08TeC8t96fNbs+yfJblzvBIfAqv12B/UZ1WkioDo3PCO92qQLITvXyj4kSWSaxQFA99xQPww==",
+      "type": "package",
+      "path": "jquery.fullcalendar/3.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/fullcalendar.css",
+        "content/Content/fullcalendar.min.css",
+        "content/Content/fullcalendar.print.css",
+        "content/Content/fullcalendar.print.min.css",
+        "content/Scripts/fullcalendar.js",
+        "content/Scripts/fullcalendar.min.js",
+        "content/Scripts/gcal.js",
+        "content/Scripts/gcal.min.js",
+        "content/Scripts/lib/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_glass_50_3baae3_1x400.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png",
+        "content/Scripts/lib/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png",
+        "content/Scripts/lib/cupertino/images/ui-icons_2694e8_256x240.png",
+        "content/Scripts/lib/cupertino/images/ui-icons_2e83ff_256x240.png",
+        "content/Scripts/lib/cupertino/images/ui-icons_3d80b3_256x240.png",
+        "content/Scripts/lib/cupertino/images/ui-icons_72a7cf_256x240.png",
+        "content/Scripts/lib/cupertino/images/ui-icons_ffffff_256x240.png",
+        "content/Scripts/lib/cupertino/jquery-ui.min.css",
+        "content/Scripts/lib/jquery-ui.min.js",
+        "content/Scripts/lib/jquery.min.js",
+        "content/Scripts/lib/moment.min.js",
+        "content/Scripts/locale-all.js",
+        "content/Scripts/locale/af.js",
+        "content/Scripts/locale/ar-dz.js",
+        "content/Scripts/locale/ar-kw.js",
+        "content/Scripts/locale/ar-ly.js",
+        "content/Scripts/locale/ar-ma.js",
+        "content/Scripts/locale/ar-sa.js",
+        "content/Scripts/locale/ar-tn.js",
+        "content/Scripts/locale/ar.js",
+        "content/Scripts/locale/bg.js",
+        "content/Scripts/locale/bs.js",
+        "content/Scripts/locale/ca.js",
+        "content/Scripts/locale/cs.js",
+        "content/Scripts/locale/da.js",
+        "content/Scripts/locale/de-at.js",
+        "content/Scripts/locale/de-ch.js",
+        "content/Scripts/locale/de.js",
+        "content/Scripts/locale/el.js",
+        "content/Scripts/locale/en-au.js",
+        "content/Scripts/locale/en-ca.js",
+        "content/Scripts/locale/en-gb.js",
+        "content/Scripts/locale/en-ie.js",
+        "content/Scripts/locale/en-nz.js",
+        "content/Scripts/locale/es-do.js",
+        "content/Scripts/locale/es-us.js",
+        "content/Scripts/locale/es.js",
+        "content/Scripts/locale/et.js",
+        "content/Scripts/locale/eu.js",
+        "content/Scripts/locale/fa.js",
+        "content/Scripts/locale/fi.js",
+        "content/Scripts/locale/fr-ca.js",
+        "content/Scripts/locale/fr-ch.js",
+        "content/Scripts/locale/fr.js",
+        "content/Scripts/locale/gl.js",
+        "content/Scripts/locale/he.js",
+        "content/Scripts/locale/hi.js",
+        "content/Scripts/locale/hr.js",
+        "content/Scripts/locale/hu.js",
+        "content/Scripts/locale/id.js",
+        "content/Scripts/locale/is.js",
+        "content/Scripts/locale/it.js",
+        "content/Scripts/locale/ja.js",
+        "content/Scripts/locale/ka.js",
+        "content/Scripts/locale/kk.js",
+        "content/Scripts/locale/ko.js",
+        "content/Scripts/locale/lb.js",
+        "content/Scripts/locale/lt.js",
+        "content/Scripts/locale/lv.js",
+        "content/Scripts/locale/mk.js",
+        "content/Scripts/locale/ms-my.js",
+        "content/Scripts/locale/ms.js",
+        "content/Scripts/locale/nb.js",
+        "content/Scripts/locale/nl-be.js",
+        "content/Scripts/locale/nl.js",
+        "content/Scripts/locale/nn.js",
+        "content/Scripts/locale/pl.js",
+        "content/Scripts/locale/pt-br.js",
+        "content/Scripts/locale/pt.js",
+        "content/Scripts/locale/ro.js",
+        "content/Scripts/locale/ru.js",
+        "content/Scripts/locale/sk.js",
+        "content/Scripts/locale/sl.js",
+        "content/Scripts/locale/sq.js",
+        "content/Scripts/locale/sr-cyrl.js",
+        "content/Scripts/locale/sr.js",
+        "content/Scripts/locale/sv.js",
+        "content/Scripts/locale/th.js",
+        "content/Scripts/locale/tr.js",
+        "content/Scripts/locale/uk.js",
+        "content/Scripts/locale/vi.js",
+        "content/Scripts/locale/zh-cn.js",
+        "content/Scripts/locale/zh-tw.js",
+        "jquery.fullcalendar.3.9.0.nupkg.sha512",
+        "jquery.fullcalendar.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.0": {
       "sha512": "hFF+HOqtiNrGtO5ZxLVAFo1ksDLQWf8IHEmGRmcF9azlUWvDLZp8+W8gDyLBcGcY5m3ugEvKy/ncElxO4d0NtQ==",
       "type": "package",
@@ -1556,10 +1730,10 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.0": {
-      "sha512": "9W+IfmAzMrp2ZpKZLhgTlWljSBM9Erldis1us61DAGi+L7Q6vilTbe1G2zDxtYO8F2H0I0Qnupdx5Cp4s2xoZw==",
+    "Microsoft.EntityFrameworkCore/7.0.2": {
+      "sha512": "5QEspjTHk/cgM98AaB12mDXF7jlInlYhG0gxS6X8ZJ2rzmyIAsvYNEwoOUifd/gt5v5HblYClYfZ9YYIEjSkew==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.0",
+      "path": "microsoft.entityframeworkcore/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1567,35 +1741,35 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.0": {
-      "sha512": "Pfu3Zjj5+d2Gt27oE9dpGiF/VobBB+s5ogrfI9sBsXQE1SG49RqVz5+IyeNnzhyejFrPIQsPDRMchhcojy4Hbw==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.2": {
+      "sha512": "nszewdtuQAk2DbhNnGssRCYVxyBhm0DZHJobU8Bc4RGPuybraCv/lovFWPUeZlTT3bQndyV8Ko2NHKSc4qsKCg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.0",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.0": {
-      "sha512": "Qkd2H+jLe37o5ku+LjT6qf7kAHY75Yfn2bBDQgqr13DTOLYpEy1Mt93KPFjaZvIu/srEcbfGGMRL7urKm5zN8Q==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.2": {
+      "sha512": "75dDCNXzoQFM86Mk/iY7lQ+XHb2DbpAh53hbAJUlxkL3XUVoCq6rWgO4y1EX7DdyKMF61dsdEKlF4/bmpi4urA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.0",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -1614,17 +1788,17 @@
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/7.0.0": {
-      "sha512": "eQiYygtR2xZ0Uy7KtiFRHpoEx/U8xNwbNRgu1pEJgSxbJLtg6tDL1y2YcIbSuIRSNEljXIIHq/apEhGm1QL70g==",
+    "Microsoft.EntityFrameworkCore.Relational/7.0.2": {
+      "sha512": "TbTGOdaGtjps3GP7rLWXEXzmP+EXhV8AwPE/ov0QYhs5i5vKZX5ZpVLMnco2MeMtiPgLyxE7DhQT8s1wlu190g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/7.0.0",
+      "path": "microsoft.entityframeworkcore.relational/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -2325,6 +2499,21 @@
         "version.txt"
       ]
     },
+    "Moment.js/2.18.2": {
+      "sha512": "ev4okotpwL6hFslhcXwTdFGU/leceMehiME3fNoAr7IZKD6DHGcAgUfoQco+vAs92Dy4FaHpC07d6Y/17098+Q==",
+      "type": "package",
+      "path": "moment.js/2.18.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/moment-with-locales.js",
+        "Content/Scripts/moment-with-locales.min.js",
+        "Content/Scripts/moment.js",
+        "Content/Scripts/moment.min.js",
+        "moment.js.2.18.2.nupkg.sha512",
+        "moment.js.nuspec"
+      ]
+    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -2336,6 +2525,33 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "MySqlConnector/2.2.5": {
+      "sha512": "6sinY78RvryhHwpup3awdjYO7d5hhWahb5p/1VDODJhSxJggV/sBbYuKK5IQF9TuzXABiddqUbmRfM884tqA3Q==",
+      "type": "package",
+      "path": "mysqlconnector/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net7.0/MySqlConnector.dll",
+        "lib/net7.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.2.5.nupkg.sha512",
+        "mysqlconnector.nuspec"
       ]
     },
     "Newtonsoft.Json/13.0.3": {
@@ -2385,6 +2601,23 @@
         "lib/netstandard2.1/Novell.Directory.Ldap.NETStandard.xml",
         "novell.directory.ldap.netstandard.3.6.0.nupkg.sha512",
         "novell.directory.ldap.netstandard.nuspec"
+      ]
+    },
+    "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
+      "sha512": "Qk5WB/skSZet5Yrz6AN2ywjZaB1pxfAmvQ+5I4khTkLwwIamI4QJoH2NphCWLFQL+2ar8HvsNCTmwYk0qhqL0w==",
+      "type": "package",
+      "path": "pomelo.entityframeworkcore.mysql/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll",
+        "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.xml",
+        "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.dll",
+        "lib/net7.0/Pomelo.EntityFrameworkCore.MySql.xml",
+        "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -3774,12 +4007,14 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
-      "Microsoft.EntityFrameworkCore >= 7.0.0",
+      "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Newtonsoft.Json >= 13.0.3",
       "Novell.Directory.Ldap.NETStandard >= 3.6.0",
-      "System.DirectoryServices.Protocols >= 7.0.0"
+      "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
+      "System.DirectoryServices.Protocols >= 7.0.0",
+      "jQuery.Fullcalendar >= 3.9.0"
     ]
   },
   "packageFolders": {
@@ -3788,11 +4023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
+      "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj",
       "projectName": "Multimedia",
-      "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
+      "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj",
       "packagesPath": "C:\\Users\\mwozn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\obj\\",
+      "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mwozn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3827,7 +4062,7 @@
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[7.0.2, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
@@ -3847,9 +4082,17 @@
             "target": "Package",
             "version": "[3.6.0, )"
           },
+          "Pomelo.EntityFrameworkCore.MySql": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          },
           "System.DirectoryServices.Protocols": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "jQuery.Fullcalendar": {
+            "target": "Package",
+            "version": "[3.9.0, )"
           }
         },
         "imports": [

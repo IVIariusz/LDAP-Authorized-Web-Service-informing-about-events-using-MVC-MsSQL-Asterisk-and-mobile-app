@@ -1,0 +1,14 @@
+.zajecia-kafel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+td {
+    vertical-align: top;
+}

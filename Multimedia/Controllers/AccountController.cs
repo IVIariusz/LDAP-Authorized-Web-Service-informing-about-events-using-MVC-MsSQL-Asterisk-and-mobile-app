@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Multimedia.Models;
@@ -133,6 +133,19 @@ namespace Multimedia.Controllers
                     };
 
                     _eventsContext.Users.Add(user);
+                    await _eventsContext.SaveChangesAsync();
+
+                    var userPreferences = new UserPreferences
+                    {
+                        UserID = user.UserID, // Ustawienie UserID dla preferencji
+                        ReceiveMessages = false, // Domyślna wartość
+                        PreferredDeliveryTime = TimeSpan.Parse("12:00:00"), // Domyślna wartość
+                        DeliveryMethod = "email", // Domyślna wartość
+                        BlockedHoursStart = TimeSpan.Parse("22:00:00"), // Domyślna wartość
+                        BlockedHoursEnd = TimeSpan.Parse("06:00:00") // Domyślna wartość
+                    };
+
+                    _eventsContext.UserPreferences.Add(userPreferences);
                     await _eventsContext.SaveChangesAsync();
                     _logger.LogInformation($"User {model.Email} successfully registered.");
 

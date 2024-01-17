@@ -178,6 +178,51 @@ public class EventsController : Controller
         }
     }
 
+    public IActionResult Calendar()
+    {
+        return View();
+    }
+
+
+    public async Task<JsonResult> GetCalendarEvents()
+    {
+        // Tworzenie listy testowych wydarzeń
+        var testEvents = new List<Event>
+    {
+        new Event
+        {
+            EventID = 1,
+            Title = "Wydarzenie Testowe 1",
+            StartDateTime = DateTime.Today,
+            EndDateTime = DateTime.Today.AddHours(2),
+            // Inne właściwości...
+        },
+        new Event
+        {
+            EventID = 2,
+            Title = "Wydarzenie Testowe 2",
+            StartDateTime = DateTime.Today.AddDays(1),
+            EndDateTime = DateTime.Today.AddDays(1).AddHours(3),
+            // Inne właściwości...
+        }
+        // Dodaj więcej wydarzeń według potrzeb
+    };
+
+        // Konwersja do formatu odpowiedniego dla FullCalendar
+        var eventList = testEvents.Select(e => new
+        {
+            id = e.EventID,
+            title = e.Title,
+            start = e.StartDateTime,
+            end = e.EndDateTime
+            // Możesz dodać więcej właściwości, jeśli są potrzebne
+        }).ToList();
+
+        return Json(eventList);
+    }
+
+
+
 
     private bool EventExists(int id)
     {

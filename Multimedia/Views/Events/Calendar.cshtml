@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Kalendarz Wydarzeń";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Kalendarz Wydarzeń</h2>
+
+<div id='calendar'></div>
+
+@section Scripts {
+    <script src="ścieżka_do_jquery"></script>
+    <script src="ścieżka_do_fullcalendar"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                events: '/Events/GetCalendarEvents' // Upewnij się, że ścieżka jest poprawna
+            });
+            calendar.render();
+        });
+    </script>
+}

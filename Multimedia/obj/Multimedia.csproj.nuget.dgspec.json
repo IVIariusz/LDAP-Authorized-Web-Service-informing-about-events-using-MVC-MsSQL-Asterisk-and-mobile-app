@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj": {}
+    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj": {
+    "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
+        "projectUniqueName": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj",
         "projectName": "Multimedia",
-        "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\Multimedia.csproj",
+        "projectPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\Multimedia.csproj",
         "packagesPath": "C:\\Users\\mwozn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\Kredek\\Domowe 4\\Cały projekt\\Multimedia\\obj\\",
+        "outputPath": "C:\\Users\\mwozn\\OneDrive\\Pulpit\\pliki\\mareq\\Photon\\student\\mvc-app\\Files\\LDAP-Authorized-Web-Service-informing-about-events-using-MVC-MsSQL-Asterisk-and-mobile-app\\Multimedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mwozn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -66,9 +66,17 @@
               "target": "Package",
               "version": "[3.6.0, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "System.DirectoryServices.Protocols": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "jQuery.Fullcalendar": {
+              "target": "Package",
+              "version": "[3.9.0, )"
             }
           },
           "imports": [

@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'MojaCzcionka';
+    src: url('~/fonts/Anton-Regular') format('woff2'), url('~/fonts/Anton-Regular') format('ttf');
+}
+
+
 html {
   font-size: 14px;
 }
@@ -19,4 +25,60 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+.navbar-logo {
+    width: 80px;
+    max-width: 100%; /* Zapobiega zbyt du¿emu powiêkszeniu obrazka */
+    display: block; /* Upewnia siê, ¿e obrazek jest wyœrodkowany na wertykalnej osi */
+    margin: 0 auto; /* Wyœrodkowuje obrazek w poziomie */
+    background: none; /* Usuniêcie bia³ego t³a, jeœli by³o */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Wyœrodkowanie w pionie */
+    flex-grow: 1;
+}
+
+
+/* Przyciski logowania i rejestracji */
+.login-button,
+.register-button {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease; /* Efekt 3D przy najechaniu */
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    font-family: 'MojaCzcionka', sans-serif;
+}
+
+/* Kolor t³a i czcionki dla przycisku rejestracji */
+.register-button {
+    background-color: red;
+    margin: 0px 10px 10px 10px;
+}
+
+.login-button a {
+    color: red;
+}
+
+.register-button a {
+    color: white;
+}
+
+/* Kolor t³a i czcionki dla przycisku logowania */
+.login-button {
+    background-color: white;
+    color: black;
+    margin: 0px 10px 10px 10px;
+}
+
+.login-button:hover,
+.register-button:hover {
+    transform: scale(1.05); /* Powiêkszenie przycisku */
+    border-color: #333; /* Kolor obramowania po najechaniu */
 }

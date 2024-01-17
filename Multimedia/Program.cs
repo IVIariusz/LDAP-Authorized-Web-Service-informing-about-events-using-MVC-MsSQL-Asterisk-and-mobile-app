@@ -1,13 +1,14 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using Multimedia.Models;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SchoolEventsContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolEventsDB")));
+    options.UseMySql("server=db;port=3306;database=BazaMultimedia;user=ma;password=StrongPassword!;",
+    new MariaDbServerVersion(new Version(10, 5, 5))));
 builder.Services.Configure<LdapConfig>(builder.Configuration.GetSection("Ldap"));
 
 builder.Services.AddControllersWithViews();
@@ -27,11 +28,13 @@ builder.Services.AddAuthentication("CookieAuthentication")
 var app = builder.Build();
 
 
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
